@@ -1,0 +1,67 @@
+body {
+  margin: 0;
+}
+li {
+  list-style: none;
+}
+.header {
+  font-size: 12px;
+  height: 68px;
+  background-color: #334861;
+  color: #CCDFE1;
+}
+.header .logo {
+  float: left;
+  width: 205px;
+  height: 62px;
+  background: url('../imgs/logo.gif') left top no-repeat;
+}
+.header .profile {
+  float: left;
+  width: 200px;
+  padding-left: 10px;
+  margin: 17px 1px 5px 0;
+}
+.header .profile .info {
+  font-weight: bold;
+}
+.header .profile ul {
+  padding-left: 0;
+  margin-top: 8px;
+}
+.header .profile li {
+  float: left;
+  margin-right: 10px;
+}
+.header .profile a {
+  color: #CCDFE1;
+  text-decoration: none;
+}
+.header .profile a:hover {
+  color: #CCDFE1;
+}
+.header .header-search {
+  float: right;
+  width: 250px;
+}
+.header .header-search .header-option {
+  float: right;
+}
+.header .header-search .header-option li {
+  float: left;
+  margin-right: 7px;
+}
+.header .header-search .header-option li a {
+  text-decoration: none;
+  color: #CCDFE1;
+}
+.header .header-search .input-txt {
+  margin: 15px 3px 3px 5px;
+  padding-right: 5px;
+  float: right;
+  width: 250px;
+}
+.header .header-search .input-txt input {
+  width: 100%;
+  margin-right: 3px;
+}

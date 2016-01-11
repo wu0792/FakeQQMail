@@ -1,0 +1,20 @@
+{
+  "name": "FakeQQMail",
+  "version": "0.0.1",
+  "description": "FakeQQMail",
+  "main": "app.js",
+  "dependencies": {},
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-less": "^3.0.5",
+    "gulp-plumber": "^1.0.1",
+    "jade": "^1.11.0",
+    "path": "^0.12.7"
+  },
+  "scripts": {},
+  "keywords": [
+    "FakeQQMail"
+  ],
+  "author": "wu0792",
+  "license": "ISC"
+}
