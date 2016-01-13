@@ -29,7 +29,7 @@ html
           input(type='text',placeholder='邮件全文搜索')#search-txt
     div.content
       div.nav-list
-        ul
+        ul#main-option
           li
             span.write-letter
             a(href='#') 写信
@@ -39,4 +39,55 @@ html
           li
             span.contact
             a(hef='#') 通讯录
+        div.split
+        ul#middle-area
+          li
+            a(href='#') 收件箱
+          li
+            a(herf='#') 星标邮件
+            span.star
+          li
+            a(href='#',class='not-read') 群邮件(11)
+          li
+            a(href='#') 草稿箱
+          li
+            a(href='#') 已发送
+          li
+            a(href='#') 已删除
+          li
+            a(href='#',class='not-read') 垃圾箱(2)
+          li
+            a(href='#',class='not-read') QQ邮件订阅(3)
+        div.split
+        ul#bottom-area
+          li
+            a(href='#') 漂流瓶
+            span.drift-bottle
+          li
+            a(href='#') 贺卡
+            span &nbsp;|&nbsp;
+            a(href='#') 明信片
+          li
+            a(href='#',class='not-read') 阅读空间(3+1)
       div.work-area
+        div.ex-bar
+          div.city-name 深圳
+          div.whether-detail 今：12°C~19°C&nbsp;明：14°C~19°C
+          div.resume
+            div.resume-header 简历中心
+            div.resume-detail 智能导入简历，提供个性模板，为你的求职保驾护航。
+              a(href='#') 立即体验
+          div.tip-area
+            ul.tab
+              li.tab-header-active 生日提醒
+              li.tab-header 我的信息
+            div.tab-content-active
+              div.friend-info
+                div.avatar-1
+                div.friend-name   Kitty爱吃鱼
+                div.friend-tip 在今天(1月13日)过生日
+                div.action
+                  a(href='#') 发贺卡
+                  a(href='#') 发明信片            
+        div.main-center 1
+        
