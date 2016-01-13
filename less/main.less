@@ -7,8 +7,15 @@
 @detail-color:#A0A0A0;
 @nav-width:187px;
 
+html{
+    height: 100%;
+}
 body{
+    height: 100%;
+}
+body,ul{
     margin:0;
+    padding: 0;
 }
 li{
     list-style: none;
@@ -73,5 +80,47 @@ li{
                 margin-right: 3px;
             }
         }
+    }
+}
+
+.content{
+    height: 100%;
+    .nav-list{
+        background-color: @nav-list-bg-color;
+        width: @nav-width;
+        height: 100%;
+        font-size: 14px;
+        font-weight: bold;
+        padding: 5px 5px 5px 20px;
+        float:left;
+        & li{
+            margin: 3px;
+            height: 26px;
+            line-height: 26px;
+        }
+        & span{
+            margin-top: 4px;
+            height: 20px;
+            width: 25px;
+            float: left;
+        }
+        & a{
+            margin: 5px 0 5px 5px;
+            color: @nav-list-color;
+            text-decoration: none;
+        }
+        .write-letter{
+           background: url('../imgs/nav-btn.gif') 0 -1px no-repeat
+        }
+        .receive-letter{
+            background: url('../imgs/nav-btn.gif') 0 -33px no-repeat
+        }
+        .contact{
+            background: url('../imgs/nav-btn.gif') 0 -63px no-repeat
+        }
+    }
+    .work-area{
+        background-color: #fff;
+        height: 100%;
     }
 }
