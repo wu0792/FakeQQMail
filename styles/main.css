@@ -44,16 +44,21 @@ li {
 .header .profile a {
   color: #CCDFE1;
   text-decoration: none;
+  cursor: pointer;
 }
 .header .profile a:hover {
   color: #CCDFE1;
+  text-decoration: underline;
 }
 .header .header-search {
   float: right;
   width: 250px;
 }
 .header .header-search .header-option {
-  float: right;
+  margin: 5px;
+  position: absolute;
+  right: 3px;
+  top: 11px;
 }
 .header .header-search .header-option li {
   float: left;
@@ -66,12 +71,30 @@ li {
 .header .header-search .input-txt {
   margin: 15px 3px 3px 5px;
   padding-right: 5px;
-  float: right;
   width: 250px;
+  position: absolute;
+  top: 25px;
+  right: 20px;
 }
 .header .header-search .input-txt input {
   width: 100%;
   margin-right: 3px;
+  padding-left: 20px;
+}
+.header .header-search .input-txt .search {
+  background: url('../imgs/search-icons.png') left top no-repeat;
+  width: 18px;
+  height: 16px;
+  position: absolute;
+}
+.header .header-search .input-txt .drop-down {
+  background: url('../imgs/search-icons.png') left top no-repeat;
+  width: 18px;
+  height: 16px;
+  display: inline-block;
+  position: absolute;
+  right: -15px;
+  background-position: -25px 0px;
 }
 .content {
   height: 100%;
@@ -143,7 +166,6 @@ li {
   height: 100%;
 }
 .work-area {
-  background-color: wheat;
   margin-left: 188px;
 }
 .work-area .main-center {
@@ -153,11 +175,9 @@ li {
 }
 .work-area .ex-bar {
   float: right;
-  background-color: navajowhite;
-  width: 300px;
+  width: 298px;
   height: 100%;
   font-size: 12px;
-  padding: 3px;
   line-height: 18px;
 }
 .work-area .ex-bar .resume {
@@ -177,6 +197,78 @@ li {
 }
 .work-area .ex-bar .resume .resume-detail a {
   color: #3D5E86;
+}
+.work-area .ex-bar .tip-area {
+  border: solid 1px #B0BAC6;
+  border-radius: 2px;
+  margin-top: 15px;
+}
+.work-area .ex-bar .tip-area .tab {
+  margin-top: 3px;
+  background-color: #F4F6F8;
+  height: 20px;
+  border-radius: 3px;
+}
+.work-area .ex-bar .tip-area .tab .tab-header {
+  vertical-align: middle;
+  border: solid 1px #B0BAC6;
+  border-radius: 3px;
+  padding: 2px;
+  width: 140px;
+  float: left;
+  text-align: center;
+  cursor: pointer;
+}
+.work-area .ex-bar .tip-area .tab .tab-header.first {
+  margin-right: -1px;
+  margin-left: 2px;
+}
+.work-area .ex-bar .tip-area .tab .tab-header.active {
+  background-color: #fff;
+  border-bottom: none;
+  cursor: auto;
+}
+.work-area .ex-bar .tip-area .tab-content {
+  clear: both;
+  height: 170px;
+  padding: 8px;
+}
+.work-area .ex-bar .tip-area .tab-content .friend-info {
+  height: 65px;
+}
+.work-area .ex-bar .tip-area .tab-content .friend-info .avatar {
+  margin-top: 5px;
+  width: 40px;
+  height: 40px;
+  float: left;
+}
+.work-area .ex-bar .tip-area .tab-content .friend-info .avatar-1 {
+  background: url('../imgs/avatar-1.jpg') 0 0 no-repeat;
+}
+.work-area .ex-bar .tip-area .tab-content .friend-info .avatar-2 {
+  background: url('../imgs/avatar-2.jpg') 0 0 no-repeat;
+}
+.work-area .ex-bar .tip-area .tab-content .friend-info .friend-name {
+  font-weight: bold;
+  color: #82A207;
+  margin-left: 50px;
+  cursor: pointer;
+}
+.work-area .ex-bar .tip-area .tab-content .friend-info .friend-tip {
+  margin-left: 50px;
+  line-height: 14px;
+  margin-bottom: 2px;
+}
+.work-area .ex-bar .tip-area .tab-content .friend-info .action {
+  margin-left: 50px;
+}
+.work-area .ex-bar .tip-area .tab-content .friend-info .action a {
+  color: #3D5E86;
+  margin-right: 5px;
+  text-decoration: none;
+}
+.work-area .ex-bar .tip-area .tab-content .friend-info .action a:hover {
+  text-decoration: underline;
 }
 .split {
   background-color: #BFC8D8;
@@ -199,6 +291,29 @@ li {
   margin: 0 3px;
   background-position: -48px -176px;
 }
+.wheather-icon {
+  background-repeat: no-repeat;
+  width: 18px;
+  height: 14px;
+  margin: 0 3px;
+  display: inline-block;
+}
+.sunny {
+  background-repeat: no-repeat;
+  width: 18px;
+  height: 14px;
+  margin: 0 3px;
+  display: inline-block;
+  background-image: url('../imgs/sunny.png');
+}
+.rainy {
+  background-repeat: no-repeat;
+  width: 18px;
+  height: 14px;
+  margin: 0 3px;
+  display: inline-block;
+  background-image: url('../imgs/rainy.png');
+}
 .drift-bottle {
   background-image: url('../imgs/icons.png');
   background-repeat: no-repeat;
@@ -213,4 +328,16 @@ li {
 }
 .not-read {
   font-weight: bold;
+}
+.mid-anchor {
+  text-align: center;
+  margin: 5px;
+  text-decoration: none;
+  display: block;
+  height: 40px;
+  line-height: 40px;
+  color: #3D5E86;
+}
+.mid-anchor:hover {
+  text-decoration: underline;
 }

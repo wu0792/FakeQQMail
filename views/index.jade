@@ -21,11 +21,15 @@ html
           ul
             li
               a(href='#') 反馈建议
+              span &nbsp;|
             li
               a(href='#') 帮助中心
+              span &nbsp;|
             li
               a(href='#') 退出
         div.input-txt
+          span.search
+          span.drop-down
           input(type='text',placeholder='邮件全文搜索')#search-txt
     div.content
       div.nav-list
@@ -72,22 +76,35 @@ html
       div.work-area
         div.ex-bar
           div.city-name 深圳
-          div.whether-detail 今：12°C~19°C&nbsp;明：14°C~19°C
+          span.whether-detail 今：
+          span.sunny
+          span 12°C~19°C&nbsp;&nbsp;明：
+          span.rainy
+          span 14°C~19°C
           div.resume
             div.resume-header 简历中心
             div.resume-detail 智能导入简历，提供个性模板，为你的求职保驾护航。
               a(href='#') 立即体验
           div.tip-area
             ul.tab
-              li.tab-header-active 生日提醒
+              li.tab-header.first.active 生日提醒
               li.tab-header 我的信息
-            div.tab-content-active
+            div.tab-content.active
               div.friend-info
-                div.avatar-1
+                div.avatar.avatar-1
                 div.friend-name   Kitty爱吃鱼
                 div.friend-tip 在今天(1月13日)过生日
                 div.action
                   a(href='#') 发贺卡
-                  a(href='#') 发明信片            
+                  a(href='#') 发明信片
+              div.friend-info
+                div.avatar.avatar-2
+                div.friend-name   仰天笑
+                div.friend-tip 在后天(1月14日)过生日
+                div.action
+                  a(href='#') 发贺卡
+                  a(href='#') 发明信片
+              div.split
+                a(href='#').mid-anchor 查看所有好友生日>>
         div.main-center 1
         
