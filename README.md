@@ -2,7 +2,7 @@
 
 ###QQ邮箱山寨版，主要是参照样式
 
-####使用jade进行模板编辑，less进行CSS设计，gulp进行jade和less的源文件监控，输出目标文件
+####使用jade进行模板编辑，less进行CSS设计，gulp进行创建任务流，监控less文件生成css
 ####效果还是出来了，有些小细节比如tab的边角还有些不完美，不影响效果。
 ####使用方法：
 ####直接打开pages/index.html文件浏览即可
@@ -11,7 +11,7 @@
 ####1)npm install gulp -g 全局安装gulp
 ####2)npm install  安装项目内部的组件依赖
 ####3）命令行运行gulp，监控less更改生成css
-####4）命令行运行 jade views/index.jade -o ./pages/ -P -w，监控jade文件更改生成html 
+####4）命令行运行 jade index.jade -o ./pages/ -P -w，监控jade文件更改生成html 
 ----
 ####下面是截屏效果图
 
