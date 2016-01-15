@@ -11,7 +11,7 @@
 ####1)npm install gulp -g 全局安装gulp
 ####2)npm install  安装项目内部的组件依赖
 ####3）命令行运行gulp，监控less更改生成css
-####4）命令行运行 jade index.jade -o ./pages/ -P -w，监控jade文件更改生成html 
+####4）命令行运行 jade views/index.jade -o ./pages/ -P -w，监控jade文件更改生成html 
 ----
 ####下面是截屏效果图
 
