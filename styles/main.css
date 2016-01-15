@@ -162,15 +162,104 @@ li {
   background-color: #D6DBE0;
 }
 .content .work-area {
-  background-color: #fff;
   height: 100%;
+  padding: 10px;
+}
+.content .work-area .top {
+  height: 140px;
+}
+.content .work-area .top .title {
+  font-size: 16px;
+  font-weight: bold;
+  margin-top: 5px;
+}
+.content .work-area .top .title a {
+  color: #354B66;
+}
+.content .work-area .top .summary {
+  font-size: 12px;
+  padding-bottom: 2px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.content .work-area .top .summary a {
+  text-decoration: none;
+  color: #354B66;
+}
+.content .work-area .top .summary a:hover {
+  text-decoration: underline;
+}
+.content .work-area .top .mail-list {
+  padding-left: 23px;
+  font-size: 14px;
+}
+.content .work-area .top .mail-list a {
+  font-weight: bold;
+  text-decoration: none;
+  margin-right: 10px;
+  color: #354B66;
+}
+margin .content .work-area .top .mail-list a:hover {
+  text-decoration: underline;
+}
+.content .work-area .intr {
+  height: 240px;
+  border: solid 1px #B0BAC6;
+  border-radius: 2px;
+}
+.content .work-area .intr .title {
+  background-color: #F4F6F8;
+  height: 20px;
+  line-height: 14px;
+  padding: 8px 5px 0 10px;
+  font-size: 14px;
+  color: #354B66;
+}
+.content .work-area .intr .ad {
+  background: url('../imgs/ad.jpg') 0 0 no-repeat;
+  border-top: solid 1px #B0BAC6;
+  border-bottom: solid 1px #B0BAC6;
+  height: 83px;
+  width: 100%;
+}
+.content .work-area .intr .fav span {
+  font-size: 14px;
+  width: 220px;
+  height: 20px;
+  margin: 15px 5px 5px 20px;
+  display: inline-block;
+  padding-left: 25px;
+  padding-top: 2px;
+  color: #354B66;
+  cursor: pointer;
+}
+.content .work-area .intr .fav span:hover {
+  text-decoration: underline;
+}
+.content .work-area .bottom {
+  height: 200px;
+  font-size: 12px;
+  margin-top: 10px;
+  margin-left: 3px;
+}
+.content .work-area .bottom span {
+  color: #354B66;
+}
+.content .work-area .bottom a {
+  color: #354B66;
+  margin-left: 5px;
+  margin-right: 5px;
+  text-decoration: none;
+  line-height: 16px;
+}
+.content .work-area .bottom a:hover {
+  text-decoration: underline;
 }
 .work-area {
   margin-left: 188px;
 }
 .work-area .main-center {
-  background-color: skyblue;
-  margin-right: 300px;
+  margin-right: 305px;
   height: 100%;
 }
 .work-area .ex-bar {
@@ -297,6 +386,58 @@ li {
   height: 14px;
   margin: 0 3px;
   display: inline-block;
+}
+.envelop {
+  background-image: url('../imgs/icons.png');
+  background-repeat: no-repeat;
+  width: 12px;
+  display: inline-block;
+  margin: 0 3px;
+  background-position: -32px -32px;
+  padding-bottom: 2px;
+  width: 16px;
+  height: 12px;
+}
+.fav-icon {
+  background: url('../imgs/prd.png') 0 0 no-repeat;
+  width: 24px;
+  height: 24px;
+}
+.iphone {
+  background: url('../imgs/prd.png') 0 0 no-repeat;
+  width: 24px;
+  height: 24px;
+  background-position: 1px 0;
+}
+.post-card {
+  background: url('../imgs/prd.png') 0 0 no-repeat;
+  width: 24px;
+  height: 24px;
+  background-position: 0 -31px;
+}
+.ipad {
+  background: url('../imgs/prd.png') 0 0 no-repeat;
+  width: 24px;
+  height: 24px;
+  background-position: 0 -62px;
+}
+.note-book {
+  background: url('../imgs/prd.png') 0 0 no-repeat;
+  width: 24px;
+  height: 24px;
+  background-position: 0 -93px;
+}
+.android {
+  background: url('../imgs/prd.png') 0 0 no-repeat;
+  width: 24px;
+  height: 24px;
+  background-position: 0 -124px;
+}
+.transfer {
+  background: url('../imgs/prd.png') 0 0 no-repeat;
+  width: 24px;
+  height: 24px;
+  background-position: 0 -158px;
 }
 .sunny {
   background-repeat: no-repeat;

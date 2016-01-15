@@ -167,8 +167,101 @@ li{
         }
     }
     .work-area{
-        background-color: #fff;
         height: 100%;
+        padding: 10px;
+        .top{
+            height: 140px;
+            .title{
+                font-size: 16px;
+                font-weight: bold;
+                margin-top: 5px;
+                & a{
+                    color: @nav-list-color;
+                }
+            }
+            .summary{
+                font-size: 12px;
+                padding-bottom: 2px;
+                margin-top: 10px;
+                margin-bottom: 10px;
+                & a{
+                    text-decoration: none;
+                    color: @nav-list-color;
+                    &:hover{
+                        text-decoration: underline;
+                    }
+                }
+            }
+            .mail-list{                
+                padding-left: 23px;
+                font-size: 14px;
+                & a{
+                    font-weight: bold;
+                    text-decoration: none;
+                    margin-right: 10px;
+                    color: @nav-list-color;
+                    margin
+                    &:hover{
+                        text-decoration: underline;                        
+                    }
+                }
+            }
+        }
+        .intr{
+            height: 240px;
+            border:solid 1px #B0BAC6;
+            border-radius: 2px;
+            .title{
+                background-color: #F4F6F8;
+                height: 20px;
+                line-height: 14px;
+                padding: 8px 5px 0 10px;
+                font-size: 14px;
+                color: @nav-list-color;
+            }
+            .ad{
+                background: url('../imgs/ad.jpg') 0 0 no-repeat;
+                border-top: solid 1px #B0BAC6;
+                border-bottom: solid 1px #B0BAC6;                 
+                height: 83px;
+                width: 100%;
+            }
+            .fav{
+                span{
+                    font-size: 14px;
+                    width: 220px;
+                    height: 20px;
+                    margin: 15px 5px 5px 20px;
+                    display: inline-block;
+                    padding-left: 25px;
+                    padding-top: 2px;
+                    color: @nav-list-color;
+                    cursor: pointer;
+                    &:hover{
+                        text-decoration: underline;
+                    }
+                }
+            }
+        }
+        .bottom{
+            height: 200px;
+            font-size: 12px;
+            margin-top: 10px;
+            margin-left: 3px;
+            span{
+                color: @nav-list-color;
+            }
+            a{
+                color: @nav-list-color;
+                margin-left: 5px;
+                margin-right: 5px;
+                text-decoration: none;
+                line-height: 16px;
+                &:hover{
+                    text-decoration: underline;
+                }
+            }
+        }
     }
 }
 
@@ -176,8 +269,7 @@ li{
     margin-left: @nav-width+1;
     @side-bar-width:300px;
     .main-center{
-        background-color: skyblue;
-        margin-right: @side-bar-width;
+        margin-right: @side-bar-width + 5;
         height: 100%;
     }
     .ex-bar{
@@ -186,34 +278,34 @@ li{
         height: 100%;
         font-size: 12px;
         line-height: 18px;
-        & .resume{
+        .resume{
             background-color: #EBEFF4;
             border-radius: 2px;
             padding: 8px;
             margin: 2px;
-            & .resume-header{
+            .resume-header{
                 font-weight: bold;
                 font-size: 14px;
                 margin-bottom: 5px;
             }
-            & .resume-detail{
+            .resume-detail{
                 color: #A8ADB8;
                 line-height: 20px;
-                & a{
+                a{
                     color: #3D5E86;
                 }
             }
       }
-      & .tip-area{
+      .tip-area{
           border:solid 1px #B0BAC6;
           border-radius: 2px;
           margin-top: 15px;
-          & .tab{
+          .tab{
               margin-top: 3px;
               background-color: #F4F6F8;
               height: 20px;
               border-radius: 3px;
-              & .tab-header{
+              .tab-header{
                   vertical-align: middle;
                   border:solid 1px #B0BAC6;
                   border-radius: 3px; 
@@ -233,7 +325,7 @@ li{
                   }
               }
           }
-          & .tab-content{
+          .tab-content{
               clear: both;
               height: 170px;
               padding: 8px;
@@ -257,14 +349,14 @@ li{
                       margin-left: 50px;
                       cursor: pointer;
                   }
-                  & .friend-tip{
+                  .friend-tip{
                     margin-left: 50px;
                     line-height: 14px;
                     margin-bottom: 2px;
                  }
-                 & .action{
+                 .action{
                      margin-left: 50px;                    
-                    & a{
+                     a{
                       color: #3D5E86;
                       margin-right: 5px;
                       text-decoration: none;
@@ -304,6 +396,50 @@ li{
     height: 14px;
     margin: 0 3px;
     display: inline-block;
+}
+
+.envelop{
+    .icon;
+    background-position: -32px -32px;
+    padding-bottom: 2px;
+    width: 16px;
+    height: 12px;
+}
+
+.fav-icon{
+    background: url('../imgs/prd.png') 0 0 no-repeat;
+    width: 24px;
+    height: 24px;
+}
+
+.iphone{
+    .fav-icon;
+    background-position: 1px 0;
+}
+
+.post-card{
+    .fav-icon;
+    background-position: 0 -31px;
+}
+
+.ipad{
+    .fav-icon;
+    background-position: 0 -62px;
+}
+
+.note-book{
+    .fav-icon;
+    background-position: 0 -93px;
+}
+
+.android{
+    .fav-icon;
+    background-position: 0 -124px;
+}
+
+.transfer{
+    .fav-icon;
+    background-position: 0 -158px;
 }
 
 .sunny{
