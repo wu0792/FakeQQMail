@@ -1,19 +1,19 @@
 # FakeQQMail
 
-###QQ邮箱山寨版，主要是参照样式
+### QQ邮箱山寨版，主要是参照样式
 
-####使用jade进行模板编辑，less进行CSS设计，gulp进行创建任务流，监控less文件生成css
-####效果还是出来了，有些小细节比如tab的边角还有些不完美，不影响效果。
-####使用方法：
-####直接打开pages/index.html文件浏览即可
-####备注：如果需要自行编辑，可以
-####命令行 cd 到根目录
-####1)npm install gulp -g 全局安装gulp
-####2)npm install  安装项目内部的组件依赖
-####3）命令行运行gulp，监控less更改生成css
-####4）命令行运行 jade index.jade -o ./pages/ -P -w，监控jade文件更改生成html 
+#### 使用jade进行模板编辑，less进行CSS设计，gulp进行创建任务流，监控less文件生成css
+#### 效果还是出来了，有些小细节比如tab的边角还有些不完美，不影响效果。
+#### 使用方法：
+#### 直接打开pages/index.html文件浏览即可
+#### 备注：如果需要自行编辑，可以
+#### 命令行 cd 到根目录
+#### 1)npm install gulp -g 全局安装gulp
+#### 2)npm install  安装项目内部的组件依赖
+#### 3）命令行运行gulp，监控less更改生成css
+#### 4）命令行运行 jade index.jade -o ./pages/ -P -w，监控jade文件更改生成html 
 ----
-####下面是截屏效果图
+#### 下面是截屏效果图
 
 ![原始图片](https://github.com/wu0792/FakeQQMail/blob/master/screen_shot/real.png?raw=true)
 
